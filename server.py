@@ -4,7 +4,7 @@ import ssl
 import base64
 import os
 
-PASSWORD = os.environ.get("PASSWORD", "defaultpass123")
+PASSWORD = os.environ.get("PASSWORD", "mypassword123")
 PORT = int(os.environ.get("PORT", 8080))
 
 async def handle(ws):
